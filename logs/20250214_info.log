@@ -1,0 +1,419 @@
+[INFO]21:10:18:839-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]21:10:18:865-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]21:10:19:029-bR.py:41 >> response code: 200
+[INFO]21:10:19:030-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739370338","createTime":1739370389166,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739370389166,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739370389315},{"noteId":"1739370069","createTime":1739370120461,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739370120461,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739370120692},{"noteId":"1739370059","createTime":1739370110376,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739370110376,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739370110521},{"noteId":"1739369498","createTime":1739369549067,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739369549067,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739369549189},{"noteId":"1739369475","createTime":1739369526533,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739369526533,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739369526649},{"noteId":"1739368988","createTime":1739369039502,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739369039502,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739369039624},{"noteId":"1739368937","createTime":1739368988369,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739368988369,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739368988437},{"noteId":"1739368932","createTime":1739368983209,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739368983209,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739368983391},{"noteId":"1739368608","createTime":1739368659350,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739368659350,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739368659468},{"noteId":"1739368434","createTime":1739368485523,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739368485523,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739368485641},{"noteId":"1739366022","createTime":1739366072841,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739366072841,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739366073000},{"noteId":"1739365942","createTime":1739365993230,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739365993230,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739365993297},{"noteId":"1739365864","createTime":1739365915400,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739365915400,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739365915473},{"noteId":"1739109982","createTime":1739110012627,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739110012627,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739110012779},{"noteId":"1739109924","createTime":1739109953687,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739109953687,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739109953822}]}
+[INFO]21:10:19:030-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:19:030-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:19:033-bR.py:17 >> request body: {'noteId': '1739370338'}
+[INFO]21:10:19:199-bR.py:23 >> response code: 200
+[INFO]21:10:19:200-bR.py:24 >> response body: {"responseTime":71}
+[INFO]21:10:19:201-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:19:201-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:19:201-bR.py:17 >> request body: {'noteId': '1739370069'}
+[INFO]21:10:19:309-bR.py:23 >> response code: 200
+[INFO]21:10:19:310-bR.py:24 >> response body: {"responseTime":20}
+[INFO]21:10:19:310-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:19:311-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:19:311-bR.py:17 >> request body: {'noteId': '1739370059'}
+[INFO]21:10:19:432-bR.py:23 >> response code: 200
+[INFO]21:10:19:434-bR.py:24 >> response body: {"responseTime":25}
+[INFO]21:10:19:435-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:19:435-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:19:435-bR.py:17 >> request body: {'noteId': '1739369498'}
+[INFO]21:10:19:561-bR.py:23 >> response code: 200
+[INFO]21:10:19:562-bR.py:24 >> response body: {"responseTime":22}
+[INFO]21:10:19:562-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:19:563-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:19:563-bR.py:17 >> request body: {'noteId': '1739369475'}
+[INFO]21:10:19:682-bR.py:23 >> response code: 200
+[INFO]21:10:19:682-bR.py:24 >> response body: {"responseTime":24}
+[INFO]21:10:19:683-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:19:683-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:19:683-bR.py:17 >> request body: {'noteId': '1739368988'}
+[INFO]21:10:19:813-bR.py:23 >> response code: 200
+[INFO]21:10:19:814-bR.py:24 >> response body: {"responseTime":22}
+[INFO]21:10:19:814-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:19:814-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:19:815-bR.py:17 >> request body: {'noteId': '1739368937'}
+[INFO]21:10:19:938-bR.py:23 >> response code: 200
+[INFO]21:10:19:938-bR.py:24 >> response body: {"responseTime":20}
+[INFO]21:10:19:939-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:19:939-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:19:939-bR.py:17 >> request body: {'noteId': '1739368932'}
+[INFO]21:10:20:056-bR.py:23 >> response code: 200
+[INFO]21:10:20:057-bR.py:24 >> response body: {"responseTime":28}
+[INFO]21:10:20:057-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:20:057-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:20:058-bR.py:17 >> request body: {'noteId': '1739368608'}
+[INFO]21:10:20:172-bR.py:23 >> response code: 200
+[INFO]21:10:20:173-bR.py:24 >> response body: {"responseTime":23}
+[INFO]21:10:20:173-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:20:174-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:20:174-bR.py:17 >> request body: {'noteId': '1739368434'}
+[INFO]21:10:20:296-bR.py:23 >> response code: 200
+[INFO]21:10:20:297-bR.py:24 >> response body: {"responseTime":21}
+[INFO]21:10:20:297-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:20:298-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:20:298-bR.py:17 >> request body: {'noteId': '1739366022'}
+[INFO]21:10:20:425-bR.py:23 >> response code: 200
+[INFO]21:10:20:426-bR.py:24 >> response body: {"responseTime":23}
+[INFO]21:10:20:427-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:20:427-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:20:428-bR.py:17 >> request body: {'noteId': '1739365942'}
+[INFO]21:10:20:547-bR.py:23 >> response code: 200
+[INFO]21:10:20:547-bR.py:24 >> response body: {"responseTime":22}
+[INFO]21:10:20:548-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:20:548-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:20:548-bR.py:17 >> request body: {'noteId': '1739365864'}
+[INFO]21:10:20:688-bR.py:23 >> response code: 200
+[INFO]21:10:20:688-bR.py:24 >> response body: {"responseTime":22}
+[INFO]21:10:20:689-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:20:689-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:20:689-bR.py:17 >> request body: {'noteId': '1739109982'}
+[INFO]21:10:20:805-bR.py:23 >> response code: 200
+[INFO]21:10:20:806-bR.py:24 >> response body: {"responseTime":20}
+[INFO]21:10:20:806-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:10:20:807-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:20:807-bR.py:17 >> request body: {'noteId': '1739109924'}
+[INFO]21:10:20:934-bR.py:23 >> response code: 200
+[INFO]21:10:20:935-bR.py:24 >> response body: {"responseTime":20}
+[INFO]21:10:20:935-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]21:10:20:936-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:10:20:936-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]21:10:21:085-bR.py:23 >> response code: 200
+[INFO]21:10:21:085-bR.py:24 >> response body: {"responseTime":32}
+[INFO]21:34:21:567-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]21:34:21:597-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]21:34:21:733-bR.py:41 >> response code: 200
+[INFO]21:34:21:734-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"2b7cf5b83388136bb7dd427bd257f0af","createTime":1739539286981,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739539286981,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":4,"contentUpdateTime":1739539290661}]}
+[INFO]21:34:21:735-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]21:34:21:737-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:34:21:738-bR.py:17 >> request body: {'noteId': '2b7cf5b83388136bb7dd427bd257f0af'}
+[INFO]21:34:21:860-bR.py:23 >> response code: 200
+[INFO]21:34:21:862-bR.py:24 >> response body: {"responseTime":24}
+[INFO]21:34:21:863-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]21:34:21:864-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:34:21:865-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]21:34:21:991-bR.py:23 >> response code: 200
+[INFO]21:34:21:993-bR.py:24 >> response body: {"responseTime":31}
+[CASE]21:34:21:994-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:34:21:995-caseOutput.py:70 >> Method Name:testCase01_major, Class Name:GetHomePagePro
+[CASE]21:34:21:996-caseOutput.py:71 >> Test Description:获取当前用户的首页便签，正向流程
+[INFO]21:34:21:997-test_get_home_page.py:29 >> 【前置步骤】请求新增便签主体和新增便签内容接口，构建一条便签数据
+[INFO]21:34:21:999-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]21:34:22:001-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:34:22:003-bR.py:17 >> request body: {'noteId': '1739540061999', 'star': 0}
+[INFO]21:34:22:120-bR.py:23 >> response code: 200
+[INFO]21:34:22:122-bR.py:24 >> response body: {"responseTime":23,"infoVersion":1,"infoUpdateTime":1739540062849}
+[INFO]21:34:22:123-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:34:22:124-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:34:22:125-bR.py:17 >> request body: {'noteId': '1739540061999', 'title': '75u8dlZyTLqWCm/b2PLNlg==', 'summary': '75u8dlZyTLqWCm/b2PLNlg==', 'body': '75u8dlZyTLqWCm/b2PLNlg==', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]21:34:22:238-bR.py:23 >> response code: 412
+[INFO]21:34:22:240-bR.py:24 >> response body: {"errorCode":-1013,"errorMsg":"Note body not empty!"}
+[INFO]21:34:22:241-test_get_home_page.py:33 >> 【step】获取当前用户的首页便签数据
+[INFO]21:34:22:242-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/1/notes
+[INFO]21:34:22:243-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]21:34:22:368-bR.py:41 >> response code: 200
+[INFO]21:34:22:369-bR.py:42 >> response body: {"responseTime":0,"webNotes":[]}
+[INFO]21:37:21:857-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]21:37:21:889-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]21:37:22:041-bR.py:41 >> response code: 200
+[INFO]21:37:22:042-bR.py:42 >> response body: {"responseTime":0,"webNotes":[]}
+[INFO]21:37:22:043-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]21:37:22:044-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:37:22:045-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]21:37:27:180-bR.py:23 >> response code: 200
+[INFO]21:37:27:181-bR.py:24 >> response body: {"responseTime":26}
+[CASE]21:37:27:182-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:37:27:183-caseOutput.py:70 >> Method Name:testCase01_major, Class Name:GetHomePagePro
+[CASE]21:37:27:185-caseOutput.py:71 >> Test Description:获取当前用户的首页便签，正向流程
+[INFO]21:37:27:186-test_get_home_page.py:29 >> 【前置步骤】请求新增便签主体和新增便签内容接口，构建一条便签数据
+[INFO]21:37:27:187-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]21:37:27:188-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:37:27:189-bR.py:17 >> request body: {'noteId': '1739540247187', 'star': 0}
+[INFO]21:37:27:338-bR.py:23 >> response code: 200
+[INFO]21:37:27:340-bR.py:24 >> response body: {"responseTime":29,"infoVersion":1,"infoUpdateTime":1739540248074}
+[INFO]21:37:27:341-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:37:27:342-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]21:37:27:343-bR.py:17 >> request body: {'noteId': '1739540247187', 'title': '75u8dlZyTLqWCm/b2PLNlg==', 'summary': 'pIDnRrCwq8sUW3gyWpo7iw==', 'body': 'wlby4RxbJjQKcx7rwTpn/w==', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]21:37:27:465-bR.py:23 >> response code: 200
+[INFO]21:37:27:467-bR.py:24 >> response body: {"responseTime":26,"contentVersion":1,"contentUpdateTime":1739540248219}
+[INFO]21:37:27:469-test_get_home_page.py:33 >> 【step】获取当前用户的首页便签数据
+[INFO]21:37:27:469-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/1/notes
+[INFO]21:37:27:470-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]21:37:27:600-bR.py:41 >> response code: 200
+[INFO]21:37:27:601-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739540247187","createTime":1739540248074,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739540248074,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739540248219}]}
+[CASE]21:37:27:603-caseOutput.py:75 >> Case run time: 0.42s
+[INFO]22:05:09:744-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]22:05:09:769-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:05:09:931-bR.py:41 >> response code: 200
+[INFO]22:05:09:932-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739540247187","createTime":1739540248074,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739540248074,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739540248219}]}
+[INFO]22:05:09:934-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]22:05:09:935-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:05:09:936-bR.py:17 >> request body: {'noteId': '1739540247187'}
+[INFO]22:05:10:082-bR.py:23 >> response code: 200
+[INFO]22:05:10:084-bR.py:24 >> response body: {"responseTime":20}
+[INFO]22:05:10:085-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]22:05:10:086-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:05:10:087-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]22:05:10:218-bR.py:23 >> response code: 200
+[INFO]22:05:10:220-bR.py:24 >> response body: {"responseTime":35}
+[CASE]22:05:10:221-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:05:10:222-caseOutput.py:70 >> Method Name:testCase01_must_key, Class Name:GetHomePageInput
+[CASE]22:05:10:223-caseOutput.py:71 >> Test Description:获取当前用户的首页便签，user_id必填项为空字符
+[INFO]22:05:10:223-test_input.py:29 >> 【前置步骤】请求新增便签主体和新增便签内容接口，构建一条便签数据
+[INFO]22:05:10:225-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:05:10:226-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:05:10:227-bR.py:17 >> request body: {'noteId': '1739541910225', 'star': 0}
+[INFO]22:05:10:339-bR.py:23 >> response code: 200
+[INFO]22:05:10:340-bR.py:24 >> response body: {"responseTime":23,"infoVersion":1,"infoUpdateTime":1739541911344}
+[INFO]22:05:10:341-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:05:10:342-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:05:10:343-bR.py:17 >> request body: {'noteId': '1739541910225', 'title': '75u8dlZyTLqWCm/b2PLNlg==', 'summary': 'pIDnRrCwq8sUW3gyWpo7iw==', 'body': 'wlby4RxbJjQKcx7rwTpn/w==', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]22:05:10:476-bR.py:23 >> response code: 200
+[INFO]22:05:10:477-bR.py:24 >> response body: {"responseTime":25,"contentVersion":1,"contentUpdateTime":1739541911424}
+[INFO]22:05:10:478-test_input.py:33 >> 【step】获取当前用户的首页便签数据
+[INFO]22:05:10:479-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user//home/startindex/0/rows/1/notes
+[INFO]22:05:10:480-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:05:10:589-bR.py:41 >> response code: 404
+[INFO]22:05:10:590-bR.py:42 >> response body: {"timestamp":"2025-02-14T14:05:11.488+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user//home/startindex/0/rows/1/notes"}
+[CASE]22:05:10:591-caseOutput.py:75 >> Case run time: 0.37s
+[INFO]22:05:10:592-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]22:05:10:593-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:05:10:731-bR.py:41 >> response code: 200
+[INFO]22:05:10:732-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739541910225","createTime":1739541911344,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739541911344,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739541911424}]}
+[INFO]22:05:10:733-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]22:05:10:734-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:05:10:735-bR.py:17 >> request body: {'noteId': '1739541910225'}
+[INFO]22:05:10:854-bR.py:23 >> response code: 200
+[INFO]22:05:10:855-bR.py:24 >> response body: {"responseTime":23}
+[INFO]22:05:10:856-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]22:05:10:857-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:05:10:858-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]22:05:10:982-bR.py:23 >> response code: 200
+[INFO]22:05:10:984-bR.py:24 >> response body: {"responseTime":34}
+[CASE]22:05:10:985-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:05:10:986-caseOutput.py:70 >> Method Name:testCase02_must_key, Class Name:GetHomePageInput
+[CASE]22:05:10:986-caseOutput.py:71 >> Test Description:获取当前用户的首页便签，user_id必填项为null
+[INFO]22:05:10:987-test_input.py:40 >> 【前置步骤】请求新增便签主体和新增便签内容接口，构建一条便签数据
+[INFO]22:05:10:988-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:05:10:989-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:05:10:990-bR.py:17 >> request body: {'noteId': '1739541910988', 'star': 0}
+[INFO]22:05:11:124-bR.py:23 >> response code: 200
+[INFO]22:05:11:126-bR.py:24 >> response body: {"responseTime":23,"infoVersion":1,"infoUpdateTime":1739541912071}
+[INFO]22:05:11:127-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:05:11:128-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:05:11:129-bR.py:17 >> request body: {'noteId': '1739541910988', 'title': '75u8dlZyTLqWCm/b2PLNlg==', 'summary': 'pIDnRrCwq8sUW3gyWpo7iw==', 'body': 'wlby4RxbJjQKcx7rwTpn/w==', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]22:05:11:244-bR.py:23 >> response code: 200
+[INFO]22:05:11:245-bR.py:24 >> response body: {"responseTime":24,"contentVersion":1,"contentUpdateTime":1739541912244}
+[INFO]22:05:11:247-test_input.py:44 >> 【step】获取当前用户的首页便签数据
+[INFO]22:05:11:248-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/null/home/startindex/0/rows/1/notes
+[INFO]22:05:11:249-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:05:11:342-bR.py:41 >> response code: 500
+[INFO]22:05:11:343-bR.py:42 >> response body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[ERROR]22:05:11:344-assertCommon.py:9 >> assert fail! res code different, expect code: 404, actual code: 500.
+[INFO]22:15:06:231-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]22:15:06:258-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:15:06:404-bR.py:41 >> response code: 200
+[INFO]22:15:06:405-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739541910988","createTime":1739541912071,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739541912071,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739541912244}]}
+[INFO]22:15:06:407-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]22:15:06:408-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:15:06:409-bR.py:17 >> request body: {'noteId': '1739541910988'}
+[INFO]22:15:06:530-bR.py:23 >> response code: 200
+[INFO]22:15:06:531-bR.py:24 >> response body: {"responseTime":24}
+[INFO]22:15:06:532-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]22:15:06:533-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:15:06:534-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]22:15:06:657-bR.py:23 >> response code: 200
+[INFO]22:15:06:658-bR.py:24 >> response body: {"responseTime":31}
+[CASE]22:15:06:659-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:15:06:661-caseOutput.py:70 >> Method Name:testCase01_major, Class Name:GetHomePageMajor
+[CASE]22:15:06:661-caseOutput.py:71 >> Test Description:获取当前用户的首页便签，正向流程
+[INFO]22:15:06:662-test_major.py:29 >> 【前置步骤】请求新增便签主体和新增便签内容接口，构建一条便签数据
+[INFO]22:15:06:663-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:15:06:665-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:15:06:666-bR.py:17 >> request body: {'noteId': '1739542506663', 'star': 0}
+[INFO]22:15:06:784-bR.py:23 >> response code: 200
+[INFO]22:15:06:786-bR.py:24 >> response body: {"responseTime":27,"infoVersion":1,"infoUpdateTime":1739542507797}
+[INFO]22:15:06:787-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:15:06:788-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:15:06:790-bR.py:17 >> request body: {'noteId': '1739542506663', 'title': '75u8dlZyTLqWCm/b2PLNlg==', 'summary': 'pIDnRrCwq8sUW3gyWpo7iw==', 'body': 'wlby4RxbJjQKcx7rwTpn/w==', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]22:15:06:911-bR.py:23 >> response code: 200
+[INFO]22:15:06:913-bR.py:24 >> response body: {"responseTime":23,"contentVersion":1,"contentUpdateTime":1739542507922}
+[INFO]22:15:06:914-test_major.py:33 >> 【step】获取当前用户的首页便签数据
+[INFO]22:15:06:916-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/1/notes
+[INFO]22:15:06:917-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:15:07:040-bR.py:41 >> response code: 200
+[INFO]22:15:07:042-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739542506663","createTime":1739542507797,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739542507797,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739542507922}]}
+[CASE]22:15:07:044-caseOutput.py:75 >> Case run time: 0.38s
+[CASE]22:45:55:215-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:55:265-caseOutput.py:70 >> Method Name:testCase01_major, Class Name:CreateNoteInfo
+[CASE]22:45:55:266-caseOutput.py:71 >> Test Description:新增便签主体，主流程
+[INFO]22:45:55:267-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:55:268-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:55:269-bR.py:17 >> request body: {'noteId': '1739544355', 'star': 0, 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:45:55:424-bR.py:23 >> response code: 200
+[INFO]22:45:55:425-bR.py:24 >> response body: {"responseTime":24,"infoVersion":1,"infoUpdateTime":1739544356561}
+[CASE]22:45:55:426-caseOutput.py:75 >> Case run time: 0.21s
+[CASE]22:45:55:427-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:55:427-caseOutput.py:70 >> Method Name:testCase01_must_key, Class Name:CreateNoteInfo
+[CASE]22:45:55:428-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，字段缺失
+[INFO]22:45:55:429-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:55:430-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:55:430-bR.py:17 >> request body: {'star': 0, 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:45:55:527-bR.py:23 >> response code: 500
+[INFO]22:45:55:528-bR.py:24 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[CASE]22:45:55:529-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:55:530-caseOutput.py:70 >> Method Name:testCase02_must_key, Class Name:CreateNoteInfo
+[CASE]22:45:55:531-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，为空字符串
+[INFO]22:45:55:532-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:55:532-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:55:533-bR.py:17 >> request body: {'noteId': '', 'star': 0, 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:45:55:634-bR.py:23 >> response code: 500
+[INFO]22:45:55:635-bR.py:24 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[CASE]22:45:55:637-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:55:638-caseOutput.py:70 >> Method Name:testCase03_must_key, Class Name:CreateNoteInfo
+[CASE]22:45:55:638-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，为None
+[INFO]22:45:55:639-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:55:641-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:55:642-bR.py:17 >> request body: {'noteId': None, 'star': 0, 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:45:55:736-bR.py:23 >> response code: 500
+[INFO]22:45:55:738-bR.py:24 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[CASE]22:45:55:739-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:55:740-caseOutput.py:70 >> Method Name:testCase04_must_key_0_star, Class Name:CreateNoteInfo
+[CASE]22:45:55:743-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with key='star']
+[INFO]22:45:55:743-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:55:745-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:55:746-bR.py:17 >> request body: {'noteId': '1739544355', 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:45:55:865-bR.py:23 >> response code: 200
+[INFO]22:45:55:866-bR.py:24 >> response body: {"responseTime":24,"infoVersion":2,"infoUpdateTime":1739544357000}
+[CASE]22:45:55:868-caseOutput.py:75 >> Case run time: 0.13s
+[CASE]22:45:55:868-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:55:869-caseOutput.py:70 >> Method Name:testCase04_must_key_1_remindTime, Class Name:CreateNoteInfo
+[CASE]22:45:55:870-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with key='remindTime']
+[INFO]22:45:55:871-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:55:872-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:55:873-bR.py:17 >> request body: {'noteId': '1739544355', 'star': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:45:55:991-bR.py:23 >> response code: 200
+[INFO]22:45:55:992-bR.py:24 >> response body: {"responseTime":23,"infoVersion":3,"infoUpdateTime":1739544357155}
+[CASE]22:45:55:993-caseOutput.py:75 >> Case run time: 0.12s
+[CASE]22:45:55:994-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:55:995-caseOutput.py:70 >> Method Name:testCase04_must_key_2_remindType, Class Name:CreateNoteInfo
+[CASE]22:45:55:997-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with key='remindType']
+[INFO]22:45:55:997-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:55:998-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:55:999-bR.py:17 >> request body: {'noteId': '1739544355', 'star': 0, 'remindTime': 0, 'groupId': None}
+[INFO]22:45:56:116-bR.py:23 >> response code: 200
+[INFO]22:45:56:117-bR.py:24 >> response body: {"responseTime":23,"infoVersion":4,"infoUpdateTime":1739544357225}
+[CASE]22:45:56:118-caseOutput.py:75 >> Case run time: 0.12s
+[CASE]22:45:56:119-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:56:119-caseOutput.py:70 >> Method Name:testCase04_must_key_3_groupId, Class Name:CreateNoteInfo
+[CASE]22:45:56:120-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with key='groupId']
+[INFO]22:45:56:121-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:56:122-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:56:131-bR.py:17 >> request body: {'noteId': '1739544356', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]22:45:56:290-bR.py:23 >> response code: 200
+[INFO]22:45:56:292-bR.py:24 >> response body: {"responseTime":42,"infoVersion":1,"infoUpdateTime":1739544357371}
+[CASE]22:45:56:293-caseOutput.py:75 >> Case run time: 0.17s
+[INFO]22:45:56:294-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]22:45:56:295-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:45:56:428-bR.py:41 >> response code: 200
+[INFO]22:45:56:430-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739542506663","createTime":1739542507797,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739542507797,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739542507922}]}
+[INFO]22:45:56:431-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]22:45:56:431-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:56:432-bR.py:17 >> request body: {'noteId': '1739542506663'}
+[INFO]22:45:56:558-bR.py:23 >> response code: 200
+[INFO]22:45:56:559-bR.py:24 >> response body: {"responseTime":26}
+[INFO]22:45:56:560-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]22:45:56:561-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:56:562-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]22:45:56:796-bR.py:23 >> response code: 200
+[INFO]22:45:56:797-bR.py:24 >> response body: {"responseTime":137}
+[CASE]22:45:56:799-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:56:799-caseOutput.py:70 >> Method Name:testCase01_must_key, Class Name:GetHomePageInput
+[CASE]22:45:56:800-caseOutput.py:71 >> Test Description:获取当前用户的首页便签，user_id必填项为空字符
+[INFO]22:45:56:801-test_input.py:29 >> 【前置步骤】请求新增便签主体和新增便签内容接口，构建一条便签数据
+[INFO]22:45:56:801-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:56:803-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:56:804-bR.py:17 >> request body: {'noteId': '1739544356801', 'star': 0}
+[INFO]22:45:56:919-bR.py:23 >> response code: 200
+[INFO]22:45:56:920-bR.py:24 >> response body: {"responseTime":23,"infoVersion":1,"infoUpdateTime":1739544358057}
+[INFO]22:45:56:921-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:45:56:922-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:56:923-bR.py:17 >> request body: {'noteId': '1739544356801', 'title': '75u8dlZyTLqWCm/b2PLNlg==', 'summary': 'pIDnRrCwq8sUW3gyWpo7iw==', 'body': 'wlby4RxbJjQKcx7rwTpn/w==', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]22:45:57:040-bR.py:23 >> response code: 200
+[INFO]22:45:57:042-bR.py:24 >> response body: {"responseTime":24,"contentVersion":1,"contentUpdateTime":1739544358149}
+[INFO]22:45:57:044-test_input.py:33 >> 【step】获取当前用户的首页便签数据
+[INFO]22:45:57:045-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user//home/startindex/0/rows/1/notes
+[INFO]22:45:57:046-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:45:57:143-bR.py:41 >> response code: 404
+[INFO]22:45:57:144-bR.py:42 >> response body: {"timestamp":"2025-02-14T14:45:58.285+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user//home/startindex/0/rows/1/notes"}
+[CASE]22:45:57:145-caseOutput.py:75 >> Case run time: 0.35s
+[INFO]22:45:57:145-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]22:45:57:146-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:45:57:314-bR.py:41 >> response code: 200
+[INFO]22:45:57:315-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739544356801","createTime":1739544358057,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739544358057,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739544358149}]}
+[INFO]22:45:57:316-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]22:45:57:317-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:57:318-bR.py:17 >> request body: {'noteId': '1739544356801'}
+[INFO]22:45:57:431-bR.py:23 >> response code: 200
+[INFO]22:45:57:432-bR.py:24 >> response body: {"responseTime":24}
+[INFO]22:45:57:433-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]22:45:57:434-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:57:435-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]22:45:57:558-bR.py:23 >> response code: 200
+[INFO]22:45:57:559-bR.py:24 >> response body: {"responseTime":31}
+[CASE]22:45:57:560-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:57:560-caseOutput.py:70 >> Method Name:testCase02_must_key, Class Name:GetHomePageInput
+[CASE]22:45:57:561-caseOutput.py:71 >> Test Description:获取当前用户的首页便签，user_id必填项为null
+[INFO]22:45:57:562-test_input.py:40 >> 【前置步骤】请求新增便签主体和新增便签内容接口，构建一条便签数据
+[INFO]22:45:57:562-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:57:563-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:57:564-bR.py:17 >> request body: {'noteId': '1739544357562', 'star': 0}
+[INFO]22:45:57:682-bR.py:23 >> response code: 200
+[INFO]22:45:57:683-bR.py:24 >> response body: {"responseTime":24,"infoVersion":1,"infoUpdateTime":1739544358818}
+[INFO]22:45:57:684-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:45:57:685-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:57:686-bR.py:17 >> request body: {'noteId': '1739544357562', 'title': '75u8dlZyTLqWCm/b2PLNlg==', 'summary': 'pIDnRrCwq8sUW3gyWpo7iw==', 'body': 'wlby4RxbJjQKcx7rwTpn/w==', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]22:45:57:803-bR.py:23 >> response code: 200
+[INFO]22:45:57:804-bR.py:24 >> response body: {"responseTime":23,"contentVersion":1,"contentUpdateTime":1739544358943}
+[INFO]22:45:57:805-test_input.py:44 >> 【step】获取当前用户的首页便签数据
+[INFO]22:45:57:806-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/null/home/startindex/0/rows/1/notes
+[INFO]22:45:57:807-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:45:57:904-bR.py:41 >> response code: 500
+[INFO]22:45:57:905-bR.py:42 >> response body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[ERROR]22:45:57:906-assertCommon.py:9 >> assert fail! res code different, expect code: 403, actual code: 500.
+[INFO]22:45:57:908-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/999/notes
+[INFO]22:45:57:909-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:45:58:038-bR.py:41 >> response code: 200
+[INFO]22:45:58:040-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739544357562","createTime":1739544358818,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739544358818,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739544358943}]}
+[INFO]22:45:58:041-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]22:45:58:042-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:58:043-bR.py:17 >> request body: {'noteId': '1739544357562'}
+[INFO]22:45:58:163-bR.py:23 >> response code: 200
+[INFO]22:45:58:164-bR.py:24 >> response body: {"responseTime":21}
+[INFO]22:45:58:165-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[INFO]22:45:58:165-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:58:166-bR.py:17 >> request body: {'noteIds': [-1]}
+[INFO]22:45:58:288-bR.py:23 >> response code: 200
+[INFO]22:45:58:289-bR.py:24 >> response body: {"responseTime":29}
+[CASE]22:45:58:290-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:45:58:291-caseOutput.py:70 >> Method Name:testCase01_major, Class Name:GetHomePageMajor
+[CASE]22:45:58:292-caseOutput.py:71 >> Test Description:获取当前用户的首页便签，正向流程
+[INFO]22:45:58:293-test_major.py:29 >> 【前置步骤】请求新增便签主体和新增便签内容接口，构建一条便签数据
+[INFO]22:45:58:294-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:45:58:295-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:58:297-bR.py:17 >> request body: {'noteId': '1739544358294', 'star': 0}
+[INFO]22:45:58:410-bR.py:23 >> response code: 200
+[INFO]22:45:58:411-bR.py:24 >> response body: {"responseTime":21,"infoVersion":1,"infoUpdateTime":1739544359521}
+[INFO]22:45:58:412-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:45:58:413-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:45:58:415-bR.py:17 >> request body: {'noteId': '1739544358294', 'title': '75u8dlZyTLqWCm/b2PLNlg==', 'summary': 'pIDnRrCwq8sUW3gyWpo7iw==', 'body': 'wlby4RxbJjQKcx7rwTpn/w==', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]22:45:58:544-bR.py:23 >> response code: 200
+[INFO]22:45:58:546-bR.py:24 >> response body: {"responseTime":24,"contentVersion":1,"contentUpdateTime":1739544359648}
+[INFO]22:45:58:547-test_major.py:33 >> 【step】获取当前用户的首页便签数据
+[INFO]22:45:58:548-bR.py:34 >> request url: http://note-api.wps.cn/v3/notesvr/user/922061821/home/startindex/0/rows/1/notes
+[INFO]22:45:58:550-bR.py:35 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd'}
+[INFO]22:45:58:708-bR.py:41 >> response code: 200
+[INFO]22:45:58:709-bR.py:42 >> response body: {"responseTime":0,"webNotes":[{"noteId":"1739544358294","createTime":1739544359521,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1739544359521,"groupId":null,"title":"75u8dlZyTLqWCm/b2PLNlg==","summary":"pIDnRrCwq8sUW3gyWpo7iw==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1739544359648}]}
+[CASE]22:45:58:710-caseOutput.py:75 >> Case run time: 0.42s

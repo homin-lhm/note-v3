@@ -1,0 +1,2 @@
+[ERROR]22:05:11:344-assertCommon.py:9 >> assert fail! res code different, expect code: 404, actual code: 500.
+[ERROR]22:45:57:906-assertCommon.py:9 >> assert fail! res code different, expect code: 403, actual code: 500.

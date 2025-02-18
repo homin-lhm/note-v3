@@ -1,0 +1,93 @@
+[CASE]21:39:27:676-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:39:27:716-caseOutput.py:70 >> Method Name:testCase01_major, Class Name:CreateNoteInfo
+[CASE]21:39:27:717-caseOutput.py:71 >> Test Description:新增便签主体，主流程
+[CASE]21:39:27:858-caseOutput.py:75 >> Case run time: 0.18s
+[CASE]21:39:27:860-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:39:27:861-caseOutput.py:70 >> Method Name:testCase01_must_key, Class Name:CreateNoteInfo
+[CASE]21:39:27:862-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，字段缺失
+[CASE]21:39:27:973-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:39:27:974-caseOutput.py:70 >> Method Name:testCase02_must_key, Class Name:CreateNoteInfo
+[CASE]21:39:27:975-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，为空字符串
+[CASE]21:39:28:084-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:39:28:085-caseOutput.py:70 >> Method Name:testCase03_must_key, Class Name:CreateNoteInfo
+[CASE]21:39:28:086-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，为None
+[CASE]21:39:28:199-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:39:28:200-caseOutput.py:70 >> Method Name:testCase04_must_key_0, Class Name:CreateNoteInfo
+[CASE]21:39:28:201-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with item={'key': 'noteId', 'code': 200}]
+[CASE]21:39:28:304-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:39:28:305-caseOutput.py:70 >> Method Name:testCase04_must_key_1, Class Name:CreateNoteInfo
+[CASE]21:39:28:306-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with item={'key': 'star', 'code': 200}]
+[CASE]21:39:28:437-caseOutput.py:75 >> Case run time: 0.13s
+[CASE]21:39:28:439-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]21:39:28:440-caseOutput.py:70 >> Method Name:testCase04_must_key_2, Class Name:CreateNoteInfo
+[CASE]21:39:28:441-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with item={'key': 'remindType', 'code': 200}]
+[CASE]21:39:28:568-caseOutput.py:75 >> Case run time: 0.13s
+[CASE]22:27:29:813-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:27:29:843-caseOutput.py:70 >> Method Name:testCase01_major, Class Name:CreateNoteInfo
+[CASE]22:27:29:844-caseOutput.py:71 >> Test Description:新增便签主体，主流程
+[INFO]22:27:29:845-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:27:29:846-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:27:29:848-bR.py:17 >> request body: {'noteId': '1739456849', 'star': 0, 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:27:30:017-bR.py:23 >> response code: 200
+[INFO]22:27:30:019-bR.py:24 >> response body: {"responseTime":54,"infoVersion":1,"infoUpdateTime":1739456851205}
+[CASE]22:27:30:020-caseOutput.py:75 >> Case run time: 0.21s
+[CASE]22:27:30:021-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:27:30:022-caseOutput.py:70 >> Method Name:testCase01_must_key, Class Name:CreateNoteInfo
+[CASE]22:27:30:023-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，字段缺失
+[INFO]22:27:30:025-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:27:30:027-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:27:30:028-bR.py:17 >> request body: {'star': 0, 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:27:30:118-bR.py:23 >> response code: 500
+[INFO]22:27:30:120-bR.py:24 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[CASE]22:27:30:122-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:27:30:123-caseOutput.py:70 >> Method Name:testCase02_must_key, Class Name:CreateNoteInfo
+[CASE]22:27:30:126-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，为空字符串
+[INFO]22:27:30:127-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:27:30:128-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:27:30:129-bR.py:17 >> request body: {'noteId': '', 'star': 0, 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:27:30:220-bR.py:23 >> response code: 500
+[INFO]22:27:30:221-bR.py:24 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[CASE]22:27:30:224-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:27:30:225-caseOutput.py:70 >> Method Name:testCase03_must_key, Class Name:CreateNoteInfo
+[CASE]22:27:30:227-caseOutput.py:71 >> Test Description:新增便签主体，noteId必填项校验，为None
+[INFO]22:27:30:228-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:27:30:229-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:27:30:230-bR.py:17 >> request body: {'noteId': None, 'star': 0, 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:27:30:334-bR.py:23 >> response code: 500
+[INFO]22:27:30:336-bR.py:24 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[CASE]22:27:30:338-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:27:30:339-caseOutput.py:70 >> Method Name:testCase04_must_key_0_star, Class Name:CreateNoteInfo
+[CASE]22:27:30:341-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with key='star']
+[INFO]22:27:30:342-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:27:30:344-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:27:30:345-bR.py:17 >> request body: {'noteId': '1739456850', 'remindTime': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:27:30:466-bR.py:23 >> response code: 200
+[INFO]22:27:30:467-bR.py:24 >> response body: {"responseTime":26,"infoVersion":1,"infoUpdateTime":1739456851709}
+[CASE]22:27:30:468-caseOutput.py:75 >> Case run time: 0.13s
+[CASE]22:27:30:469-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:27:30:470-caseOutput.py:70 >> Method Name:testCase04_must_key_1_remindTime, Class Name:CreateNoteInfo
+[CASE]22:27:30:472-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with key='remindTime']
+[INFO]22:27:30:472-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:27:30:474-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:27:30:475-bR.py:17 >> request body: {'noteId': '1739456850', 'star': 0, 'remindType': 0, 'groupId': None}
+[INFO]22:27:30:612-bR.py:23 >> response code: 200
+[INFO]22:27:30:613-bR.py:24 >> response body: {"responseTime":24,"infoVersion":2,"infoUpdateTime":1739456851844}
+[CASE]22:27:30:615-caseOutput.py:75 >> Case run time: 0.15s
+[CASE]22:27:30:616-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:27:30:617-caseOutput.py:70 >> Method Name:testCase04_must_key_2_remindType, Class Name:CreateNoteInfo
+[CASE]22:27:30:618-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with key='remindType']
+[INFO]22:27:30:619-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:27:30:621-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:27:30:622-bR.py:17 >> request body: {'noteId': '1739456850', 'star': 0, 'remindTime': 0, 'groupId': None}
+[INFO]22:27:30:762-bR.py:23 >> response code: 200
+[INFO]22:27:30:764-bR.py:24 >> response body: {"responseTime":23,"infoVersion":3,"infoUpdateTime":1739456852003}
+[CASE]22:27:30:765-caseOutput.py:75 >> Case run time: 0.15s
+[CASE]22:27:30:766-caseOutput.py:69 >> -------------------------------------------------------------------------
+[CASE]22:27:30:767-caseOutput.py:70 >> Method Name:testCase04_must_key_3_groupId, Class Name:CreateNoteInfo
+[CASE]22:27:30:768-caseOutput.py:71 >> Test Description:新增便签主体，非必填字段校验，字段缺失 [with key='groupId']
+[INFO]22:27:30:769-bR.py:15 >> request url: http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]22:27:30:770-bR.py:16 >> request headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821', 'Content-Type': 'application/json'}
+[INFO]22:27:30:772-bR.py:17 >> request body: {'noteId': '1739456850', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]22:27:30:895-bR.py:23 >> response code: 200
+[INFO]22:27:30:896-bR.py:24 >> response body: {"responseTime":21,"infoVersion":4,"infoUpdateTime":1739456852118}
+[CASE]22:27:30:897-caseOutput.py:75 >> Case run time: 0.13s
