@@ -1,0 +1,29 @@
+note_create_info:
+  path: /v3/notesvr/set/noteinfo
+  method: post
+  mustKeys:
+    - noteId
+  notMustKeys:
+    - star
+    - remindTime
+    - remindType
+    - groupId
+note_create_content:
+  path: /v3/notesvr/set/notecontent
+  method: post
+group_create:
+  path: /v3/notesvr/set/notegroup
+  method: post
+  mustKeys:
+    - groupId
+    - groupName
+  notMustKeys:
+    - order
+note_delete:
+  path: /v3/notesvr/delete
+  method: post
+  mustKeys:
+    - noteId
+cleanRecyclebin:
+  path: /v3/notesvr/cleanrecyclebin
+  method: post
